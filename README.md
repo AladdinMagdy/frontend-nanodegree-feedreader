@@ -5,7 +5,7 @@ In this project I am given a web-based application that reads RSS feeds. The ori
 
 ## How can you check this project?
 
-Simply fork this repository and then clone it via git or download a zip file then open the index.html file.
+Simply clone this repository via git or download a zip file then open the index.html file.
 
 You can also view it online by going to [this Website](https://aladdinmagdy.github.io/frontend-nanodegree-feedreader/).
 
