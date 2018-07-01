@@ -10,7 +10,7 @@ Simply fork this repository and then clone it via git or download a zip file the
 You can also view it online by going to [this Website](https://aladdinmagdy.github.io/frontend-nanodegree-feedreader/).
 
 
-# What are the required tests for this project?
+## What are the required tests for this project?
 
 1. Write a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined and that the URL is not empty.
 2. Write a test that loops through each feed in the `allFeeds` object and ensures it has a name defined and that the name is not empty.
