@@ -55,13 +55,12 @@ $(function() {
 
     it('Menu is hidden/visible on click', function() {
       var b = document.getElementsByTagName('body')[0];
-      var classAvailable = b.classList.contains('menu-hidden');
-      var menu = document.getElementsByClassName('menu-icon-link');
+      var menu = document.getElementsByClassName('menu-icon-link')[0];
 
       menu.click();
-      expect(classAvailable).toBe(true);
+      expect(b.classList.value).toBe('');
       menu.click();
-      expect(classAvailable).toBe(false);
+      expect(b.classList.value).toBe('menu-hidden');
 
     });
 
